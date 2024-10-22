@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>carro</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    aside{
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .botao{
+      color:#333
+    }
+  form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+  }
+</style>
+</head>
+<body>
+   <header>
+      <nav class="titulo">
+     <h1>Carbon Awareness</h1>
+      </nav>
+     <nav>
+   <div>
+  
+  
+    <a href="index.html"><img width="47.1px" src="casa" alt="casa"></a>
+    <a href="#"><img class="lodo" width="137px" src="2" alt="logo1" style="float: right;"></a>
+   </div>
+   </nav>
+   </header>
+   <main>
+<p>
+  <h1>Partículas em Suspensão</h1>
+   <p>Os motores de combustão interna em veículos emitem partículas minúsculas, que são uma mistura de materiais sólidos e líquidos. Essas partículas são tão pequenas que podem ser inaladas profundamente nos pulmões, causando problemas respiratórios e cardiovasculares em seres humanos. Além disso, elas podem contribuir para a formação de nevoeiro tóxico e afetar a visibilidade.</p>  
+  <h1>Dióxido de Nitrogênio (NO2)</h1>
+  <picture class="auto">
+    <source media="(mix-width:750px)" srcset="no2.300.jpg" type="no2.700.jpg" class="imagem-responsiva">
+    <source media="(mix-width:1050px)" srcset="no2.700.jpg" type="no2.700.jpg" class="imagem-responsiva">
+    <img src="no2.700.jpg" alt="no2.700.jpg" class="imagem-responsiva">
+    </picture><br>
+<P>Primeira foto de um atomo de dióxido de Nitrogênio.</P>
+  <p>Esse é um gás poluente emitido principalmente pela queima de combustíveis fósseis em veículos. O <strong>NO2</strong> pode causar irritação das vias respiratórias e agravar doenças respiratórias crônicas, como asma. Além disso, ele contribui para a formação de chuva ácida, que prejudica ecossistemas terrestres e aquáticos.</p>  
+  <h1>Dióxido de Enxofre <strong>(SO2)</strong></h1>
+  <p>Embora as emissões de <strong>SO2</strong> provenientes de veículos sejam menores em comparação com outras fontes, esse gás ainda é um poluente preocupante. Assim como o <strong>NO2</strong>, o <strong>SO2</strong> pode causar problemas respiratórios e contribuir para a formação de chuva ácida.</p> 
+  <p>Além desses poluentes principais, os veículos também emitem compostos orgânicos voláteis <strong>(COVs)</strong>, monóxido de carbono <strong>(CO)</strong> e óxidos de carbono, que contribuem para a formação de ozônio troposférico, um poluente atmosférico prejudicial à saúde humana e ao meio ambiente.</p>
+  <p> Os impactos da poluição veicular são vastos e incluem:</p>
+  <ul>
+    <li>Problemas de saúde humana: As emissões dos veículos estão ligadas a doenças respiratórias, cardiovasculares e até mesmo câncer de pulmão. Crianças, idosos e pessoas com condições de saúde pré-existentes são particularmente vulneráveis.</li>
+    <li>Qualidade do ar: A poluição veicular contribui para a piora da qualidade do ar nas áreas urbanas, resultando em smog e neblina tóxica. Isso não apenas prejudica a saúde das pessoas, mas também afeta a qualidade de vida geral.</li>
+    <li>Impactos ambientais: Além dos danos à saúde humana, a poluição veicular pode causar acidificação do solo e da água, prejudicando a flora e a fauna. Os gases poluentes também contribuem para as mudanças climáticas, devido ao papel do <strong>CO2</strong> como um gás de efeito estufa. </li>
+  </ul>
+<p>Para mitigar a poluição veicular, diversas ações podem ser tomadas, tais como a promoção do uso de veículos elétricos e híbridos, a melhoria da eficiência dos motores de combustão interna, a implementação de regulamentações mais rigorosas de emissões e a promoção do transporte público e de meios alternativos de locomoção, como ciclovias e caminhadas</p>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q1PSnNmuPjM?si=X-IqIugxqeo8epXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<aside>
+<h1 class="botao">Calculadora de Emissão de CO2</h1>
+  <form id="calcForm">
+    <label for="tipoVeiculo">Tipo de veículo:</label>
+    <select id="tipoVeiculo">
+      <option value="carro">Carro</option>
+      <option value="caminhao">Caminhão</option>
+      <option value="motocicleta">Motocicleta</option>
+    </select>
+
+    <br>
+
+    <label for="distanciaPercorrida">Distância percorrida (em km):</label>
+    <input type="number" id="distanciaPercorrida" step="0.01" required>
+
+    <br>
+
+    <button type="button" onclick="calcularEmissaoCO2()">Calcular</button>
+    <button type="button" onclick="resetarFormulario()">Resetar</button>
+  </form>
+
+  <p id="resultado"></p>
+</aside>
+  <script>
+    function calcularEmissaoCO2() {
+      const tipoVeiculo = document.getElementById("tipoVeiculo").value;
+      const distanciaPercorrida = parseFloat(document.getElementById("distanciaPercorrida").value);
+
+      // Valores médios de emissão de CO2 (em kg) por tipo de veículo
+      const valoresMediosEmissaoCO2 = {
+        carro: 2.31, // kg CO2 por litro de gasolina
+        caminhao: 3.0, // kg CO2 por litro de diesel
+        motocicleta: 1.8, // kg CO2 por litro de gasolina
+      };
+
+      // Calcular a emissão de CO2 com base no tipo de veículo
+      const emissaoCO2PorLitro = valoresMediosEmissaoCO2[tipoVeiculo];
+      const emissaoCO2 = distanciaPercorrida * emissaoCO2PorLitro;
+
+      // Exibir o resultado na página
+      const resultadoElement = document.getElementById("resultado");
+      resultadoElement.textContent = `A emissão de CO2 é de aproximadamente ${emissaoCO2.toFixed(2)} kg.`;
+    }
+
+    function resetarFormulario() {
+      document.getElementById("calcForm").reset();
+      document.getElementById("resultado").textContent = "";
+    }
+  </script>
+</section>
+   </main>
+   <footer>
+     
+     
+     
+     
+   </footer>
+
+
+
+
+
+
+</body>
+</html>

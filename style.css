@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-color: #161F30;
+  margin: 0px;
+  background-image: url("folha-verde.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+main img {
+  display: block;
+  margin: auto;
+}
+
+header {
+  margin: 0px 0px 0px 0px;
+}
+
+div {
+  background-color: #84B026;
+  height: 41.9px;
+  margin: auto;
+  border-top: 3px;
+}
+
+* {
+  margin: 0px;
+  font-size:1em;
+}
+
+div > img {
+  padding: 1.9px 0px 0px 0px;
+  margin: -2.3px;
+}
+
+div.logo {
+  background-position: left center;
+}
+
+a {
+  margin: -2.3px;
+}
+
+.titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #7BBF15;
+ padding-top:50px;
+  height: 130px;
+  color: white;
+}
+
+.titulo > h1 {
+  font-size: 2em;
+  padding: 10px;
+  margin: 0px;
+  
+}
+
+.titulo > h2 {
+  font-size: 1em;
+}
+
+main {
+  background-color: white;
+  min-width: 300px;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 1.99px 3px 0px black;
+}
+
+main h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #161F30;
+}
+
+main h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #161F30;
+  text-align: left;
+}
+
+main h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #161F30;
+  text-align: left;
+}
+
+main p {
+  line-height: 1.5em;
+}
+
+p {
+  text-indent: 0px;
+  text-align: justify;
+  padding-bottom: 10px;
+ 
+}
+
+footer {
+  height: 30px;
+  background-color: white;
+  margin: auto;
+  border-top: 0px;
+  margin-top: 30px;
+}
+iframe{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+div.video {
+  background-color: white;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 59%;
+  position: relative;
+}
+
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+li {
+  margin: 5px;
+}
+
+.container {
+  text-align: center;
+}
+
+.imagem-responsiva {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+.BOX{
+  
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+a:visited{
+color: #161F30;
+}
+a:hover{
+  color: #7BBF15;
+  text-decoration: underline;
+}
+a:active{
+  color: yellowgreen;
+}
+a{
+  color: #84B026;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+strong{
+  color: rgb(34, 34, 34);
+}
+
+
+
